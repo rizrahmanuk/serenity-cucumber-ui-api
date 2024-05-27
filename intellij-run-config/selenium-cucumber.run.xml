@@ -1,0 +1,27 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="selenium-cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false">
+    <option name="CUCUMBER_CORE_VERSION" value="5" />
+    <option name="FILE_PATH" value="src/test/resources/features" />
+    <option name="GLUE" value="com.jira.po.stepdefinitions com.jira.po.api" />
+    <option name="MAIN_CLASS_NAME" value="net.serenitybdd.cucumber.cli.Main" />
+    <module name="serenity-selenium-cucumber" />
+    <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --tags &quot;@API-CRUD" />
+    <shortenClasspath name="MANIFEST" />
+    <option name="SUGGESTED_NAME" value="Feature: RemoveSourceOptionOnSDUpage" />
+    <option name="VM_PARAMETERS" value="-Dwebdriver.chrome.driver=&quot;$PROJECT_DIR$/chromedriver/chromedriver-mac-arm64-117/chromedriver&quot; -Ddependency_repository.id=nexus -Ddependency_repository.name=NEXUS -DfailIfNoTests=false -Dcucumber.execution.dry-run=false" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="io.cucumber.core.cli.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
